@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+  height: 400px;
+  border: 2px solid black;
+}
+
+
+
+.box1 {
+  order: 3;
+  flex-grow: 2;
+  flex-shrink: 0;
+}
+
+.box2 {
+  align-self: center;
+}
+
+.box3 {
+  align-self: flex-end;
+}
+
+.static-box {
+  position: static;
+}
+
+.relative-box {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.parent {
+  position: relative;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 10px;
+  
+}
+
+.fixed-box {
+  position: fixed;
+ 
+}
+
+.sticky-box {
+  position: sticky;
+  top: 10px;
+}
+
+.hidden-box {
+  visibility: hidden;
+}
+
+.none-box {
+  display: none;
+}
